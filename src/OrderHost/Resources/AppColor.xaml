@@ -1,0 +1,25 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<!-- Resource dictionary entries should be defined here. -->
+
+	<SolidColorBrush x:Key="DrakPrimary" Color="#00796B"/>
+	<SolidColorBrush x:Key="Primary" Color="#009688"/>
+	<SolidColorBrush x:Key="LightPrimary" Color="#FFFFFF"/>
+	<SolidColorBrush x:Key="TextIcon" Color="#FFFFFF"/>
+	<SolidColorBrush x:Key="PrimaryText" Color="#212121"/>
+    <SolidColorBrush x:Key="SecondText" Color="#727272"/>
+    <SolidColorBrush x:Key="BlackText" Color="#212121"/>
+
+
+    <SolidColorBrush x:Key="Pink" Color="#C2185B"/>
+    <SolidColorBrush x:Key="Red" Color="#D50000"/>
+    <SolidColorBrush x:Key="Green" Color="#1B5E20"/>
+    <SolidColorBrush x:Key="DrakBlue" Color="#0288D1"/>
+    <SolidColorBrush x:Key="Blue" Color="#03A9F4"/>
+    <SolidColorBrush x:Key="Orange" Color="#E64A19"/>
+    <SolidColorBrush x:Key="lightBlack" Color="#343f4a"/>
+
+    <SolidColorBrush x:Key="DrakYellow" Color="#AFB42B"/>
+    <SolidColorBrush x:Key="Yellow" Color="#CDDC39"/>
+</ResourceDictionary>

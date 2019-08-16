@@ -1,0 +1,56 @@
+// Line format:
+// Cost; Drink name; IsAvailable; Note
+// Sinh to; trai cay tuoi
+$1;Khác...; True; Comment để chọn món khác
+$1;ST Khoai môn; True; N/A
+$1;ST Khoai lang; True; N/A
+$1;ST Sầu riêng; True; N/A
+$1;ST Sầu riêng + Dừa; True; N/A
+$1;ST Dưa Hấu; True; N/A
+$1;ST Đu đủ; True; N/A
+$1;ST Sapoche; True; N/A
+$1;ST Sapoche + Caffee + Bơ; True; N/A
+$1;ST Sapoche + Khoai môn; True; N/A
+$1;ST Chuối; True; N/A
+$1;ST Cà chua; True; N/A
+$1;ST Mãng cầu; True; N/A
+$1;ST Mãng cầu + Dâu; True; N/A
+$1;ST Mãng cầu + Dâu + Cam; True; N/A
+$1;ST Mãng cầu + Dâu + Cam + Yogurt; True; N/A
+$1;ST Bơ; True; True; N/A
+$1;ST Bơ + Sầu riêng; True; True; N/A
+$1;ST Dừa; True; True; N/A
+$1;ST Xoài; True; N/A
+$1;ST Dâu tây; True; N/A
+$1;ST Dâu tây + Yogurt; True; N/A
+$1;ST Dâu tây + Nho + Thạch; True; N/A
+$1;ST Dâu tây + Táo + + Thơm + Thạch; True; N/A
+// Nuoc ep trai cay
+$1;Nước ép Cà chua; True; N/A
+$1;Nước ép Ổi; True; N/A
+$1;Nước ép Ổi + Bạc hà; True; N/A
+$1;Nước ép Dưa hấu; True; N/A
+$1;Nước ép Thơm; True; N/A
+$1;Nước ép Chanh dây; True; N/A
+$1;Nước ép Tắc; True; N/A
+$1;Nước ép Sơ-ri; True; N/A
+$1;Nước ép Táo; True; N/A
+$1;Nước ép Bưởi; True; N/A
+$1;Nước ép Cam; True; N/A
+$1;Nước ép Nho; True; N/A
+$1;Nước ép Dâu tây; True; N/A
+$1;Dừa trái; True; N/A
+// Caffee
+$1;Caffee đá; True; N/A
+$1;Caffee sữa đá; True; N/A
+$1;Sinh tố caffee; True; N/A
+// Trà sữa
+$1;Trà sữa Bạc hà + Thạch; True; N/A
+$1;Trà sữa Kiwi + Thạch; True; N/A
+$1;Trà sữa Socola + Thạch; True; N/A
+$1;Trà sữa Khoai môn + Thạch; True; N/A
+$1;Trà sữa Dâu + Thạch; True; N/A
+$1;Trà sữa Đào + Thạch; True; N/A
+$1;Trà sữa Nhiệt đới + Thạch; True; N/A
+$1;Trà Đào; True; N/A
+$1;Nước Soda Blue; True; N/A

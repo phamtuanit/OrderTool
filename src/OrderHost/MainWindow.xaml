@@ -1,0 +1,30 @@
+﻿<Window x:Class="Collector.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Food Ordering App" Height="600" Width="500" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <ListBox ItemsSource="{Binding OrderItems, UpdateSourceTrigger=PropertyChanged}"
+                     Margin="5,2"
+                     ItemContainerStyle="{DynamicResource ListBoxItemStyle}">
+            </ListBox>
+        </Grid>
+        <Grid Grid.Row="1">
+            <StackPanel Margin="0,5" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button x:Name="Collect"
+        			Content="Collect" Height="26"
+        			Click="Collect_OnClick"
+        			Width="100" Style="{DynamicResource ActionButtonStyle}" Margin="2,0"/>
+                <Button x:Name="Export"
+                	Content="Export" Height="26"
+                	Click="Export_OnClick"
+                	Width="100" Style="{DynamicResource ExportButtonStyle}" Margin="2,0"/>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Window>
